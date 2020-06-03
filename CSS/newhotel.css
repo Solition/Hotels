@@ -1,0 +1,696 @@
+body{
+    background: grey;
+    margin: 0;
+    background: white;
+}
+
+header{
+    background: rgb(0, 153, 250);
+    width: 100%;
+    height: 70px;
+}
+
+header div{
+    background: rgb(0, 153, 255);
+    /*border: 1px solid white;*/
+    width: 65%;
+    height: 70px;
+    float: left;
+}
+
+header div h2 a#head{
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    font-family: lucida Sans;
+    font-size: 30px;
+    float: left;
+}
+
+header div a#image{
+    padding-left: 73%;
+}
+
+.menu ul{
+    list-style: none;
+    margin: auto;
+}
+
+.menu ul li{
+    background: rgb(0, 153, 255);
+    display: inline-block;
+    
+}
+
+.menu ul li.a{
+    /*width: 20%;*/
+    border: 1px solid white;
+    height: 70px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+} 
+
+.menu ul li.a img{
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.menu ul li.a div{
+    background: darkblue;
+    text-decoration: none;
+    color: white;
+    float: right;
+    margin-right: 5%;
+    padding-left: 20%;
+    margin-top: -24%;
+    border-radius: 25px;
+    line-height: 100%;
+    height: 37px;
+}
+
+.menu ul li.a div a{
+    text-decoration: none;
+}
+
+.menu ul li.a a.call{
+    color: rgb(0, 153, 250);
+    font-size: 10px;
+    margin-left: -12px;
+}
+.menu ul li.a div .numb{
+    color: white;
+    font-size: 15px;
+}
+
+.menu ul li.b{
+    width: 5%;
+    border: 1px solid white;
+    padding: 43px 5px 3px 15px;
+    position: relative;
+    right: 4px;
+    bottom: 9px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+
+}
+
+.menu ul li.b img{
+    color: white;
+    font-size: 20px;
+}
+
+.menu ul li.c{
+    /*width: 10%;*/
+    border: 1px solid white;
+    border-top: none;
+    border-bottom: none;   
+    border-right: none;
+    padding-right: 8px;
+    height: 70px;
+    position: relative;
+    right: 20px;
+}
+
+.menu ul li.c svg{
+    padding-left: 0px;
+}
+
+.menu ul li.c a{
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+div#search{
+    background: url(../IMAGES/homepage12.jpg) no-repeat;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    bottom: 32px;
+}
+
+div#search h2{
+    padding-left: 35%;
+    padding-top: 142px;
+    font-size: 38px;
+    color: white;
+    margin-bottom: -5px;
+}
+
+div#search p{
+    padding-left: 41%;
+    font-size: 22px;
+    color: white;
+    line-height: 0px;
+}
+
+div.textbox{
+    background: white;
+    width: 70%;
+    padding: 4%;
+    margin: auto;
+    line-height: 10px;
+    height: 150px;
+    padding-top: 35px;
+    padding-bottom: 70px;
+    box-shadow: 0 4px 15px rgba(0,0,0,.2);
+    margin-top: -6%;
+    margin-bottom: 5%;
+}
+
+div.textbox input{
+    width: 100%;
+    border: 1px solid dimgray;
+    background: white;
+    border-radius: 5px;
+    height: 35px;
+    margin: 2px;
+}
+
+div.textbox a{
+    text-decoration: none;
+    color: white;
+    background: #14acf2;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 1% 45.5% 1% 46%;
+    position: relative;
+    top: 15px;
+    left: 4px;
+}
+
+div.textbox a:hover{
+    background-color: #337ab7;
+}
+
+div#same{
+    background: white;
+    text-align: center;
+    color: rgb(71, 70, 70);
+
+}
+
+div#same h3{
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+
+div#same p{
+    font-size: 18px;
+}
+
+div.smallborder{
+    border: 1px solid #14acf2;
+    width: 3%;
+    margin: auto;
+}
+
+div.state ul{
+    list-style: none;
+    margin: 2% 0 5% 9%;
+}
+
+div.state ul li{
+    background: white;
+    width: 10%;
+    display: inline-block;
+    padding: 15px 15px;
+    border: 2px solid #14acf2;
+    border-radius: 5px;
+    margin: 7px;
+    height: 45px;
+}
+
+
+div.state ul li a{
+    text-decoration: none;
+}
+
+div.state ul li a h4{
+    color: #14acf2;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    margin: auto;
+}
+
+div.state ul li a p{
+    color: grey;
+    padding: 0 0 0 25px;
+    position: relative;
+    bottom: 10px;
+}
+
+div.state ul li:hover{
+   /* background: #14acf2;
+    text-decoration-color: white;*/
+}
+
+div.percent{
+    background: white;
+    margin: 10%;
+}
+
+
+.lux p{
+    background: orange;
+    width: 11%;
+    padding: 2px 10px;
+    font-size: large;
+    position: absolute;
+    color: white;
+}
+
+.lux img{
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    margin-bottom: -26px;
+}
+
+.lux div{
+    background: white;
+    padding: 5px 0 5px 10px;
+    border-width: inherit;
+}
+
+.percent .lux div {
+    border: 1px solid gray;
+    border-bottom: none;
+    border-radius: 4px;
+}
+
+.percent .lux div.last {
+    border-bottom: 1px solid grey;
+}
+
+
+.lux div a{
+    text-decoration: none;
+    font-size: small;
+    color: dimgray;
+}
+
+.lux div h4 a{
+    text-decoration: none;
+    color: #14acf2;
+    font-size: large;
+}
+
+.lux div h4{
+    margin-bottom: 10px;
+}
+
+.lux img:hover{
+
+}
+
+.book{
+    margin: auto 120px;
+    position: relative;
+    top: 10px;
+}
+
+.book ul{
+    /*background: firebrick;*/
+    margin-bottom: 100px;
+    padding: 30px;
+}
+
+.book ul li{
+    /*background: fuchsia;*/
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.book ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.book ul li.lag{
+    background: url(../IMAGES/lagos_city1.jpg) no-repeat;
+    width: 310px;
+    height: 142px;
+}
+
+.book ul li.abu{
+    background: url(../IMAGES/abuja_city1.jpg) no-repeat;
+    width: 310px;
+    height: 142px;
+
+}
+
+.book ul li.cal{
+    background: url(../IMAGES/crossriver_city1.jpg) no-repeat;
+    width: 310px;
+    height: 142px;
+
+}
+
+.book ul li.por{
+    background: url(../IMAGES/port-harcourt_city1.jpg) no-repeat;
+    width: 310px;
+    height: 142px;
+    position: relative;
+    top: 30px;
+}
+
+.book ul li.owe{
+    background: url(../IMAGES/owerri_city1.jpg) no-repeat;
+    width: 310px;
+    height: 142px;
+    position: relative;
+    top: 30px;
+
+}
+
+.book ul li.uyo{
+    background: url(../IMAGES/uyo_city1.jpg) no-repeat;
+    width: 310px;
+    height: 142px;
+    position: relative;
+    top: 30px;
+
+}
+
+div ul li a.los{
+    font-weight: bold;
+}
+
+div ul li a.lagover{
+
+}
+
+div ul li a.clover{
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+}
+
+div ul li a.clover:hover{
+    background: #14acf2;
+    border: none;
+    padding: 10px;
+    font-weight: initial;
+    font-size: 16px;
+}
+
+div.review{
+    background: white;
+}
+
+div.review ul{
+    list-style: none;
+    padding-left: 170px;
+}
+
+div.review ul li{
+    color: dimgray;
+    font-size: 14px;
+}
+
+div.review ul li a{
+    text-decoration: none;
+    color: #14acf2;
+    font-size: large;
+    font-weight: bold;
+}
+
+section div{
+    background: white;
+    text-align: center;
+}
+
+section div h3{
+    color: rgb(71, 70, 70);
+    font-size: 23px;
+    margin-bottom: -5px;
+}
+
+section div p{
+    color: rgb(71, 70, 70);
+    font-size: 15px;
+}
+
+section .EM.form {
+	margin: 20px 0px 0px 380px;
+	padding: 15px;
+	background: white;
+}
+
+section .EM.form input#E {
+	width: 45%;
+	height: 37px;
+	border-radius: 5px;
+	border: 1px solid darkgrey;
+}
+
+section .EM.form input#S {
+	padding: 5px 30px;
+	height: 42px;
+	margin-left: 5px;
+	border: 1px solid #14acf2;
+	border-radius: 5px;
+	background: #14acf2;
+	color: white;
+	font-family: times;
+	font-size: 14px;
+}
+
+section .EM.form input#S:hover{
+    background: #337ab7;
+    border: 1px solid #337ab7;
+}
+
+.latest {
+    background: white;
+}
+
+.latest ul {
+    list-style: none;
+    text-align: center;
+}
+
+.latest ul li {
+    font-size: 40px;
+    margin-left: -25px;
+}
+
+.latest ul li a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.latest ul li a:hover {
+    color: rgb(71,70,70);
+}
+
+.latest ul li:first-child {
+    font-family: fantasy;
+    padding-top: 5px;
+}
+
+.latest ul li:nth-child(2) {
+    font-weight: bold;
+}
+
+.latest ul li:nth-child(3) {
+    font-weight: bold;
+    font-family: helvetica;
+}
+
+.latest ul li:last-child {
+    font-weight: bold;
+    font-family: helvetica;
+    font-size: large;
+}
+
+div.find {
+    background: white;
+    text-align: center;
+    padding: 50px;
+}
+
+div.find h3 {
+    color: rgb(65, 62, 62);
+    font-size: 24px;
+}
+
+div.find p {
+    font-size: 17px;
+    color: rgb(71,70,70);
+}
+
+div.find a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #14acf2;
+    border-radius: 5px;
+    padding: 10px 35px;
+    background: #14acf2;
+}
+
+div.find a:hover{
+    background-color: #337ab7;
+    border: 1px solid #337ab7;
+}
+
+div.app {
+    margin: 7% 15%;
+}
+
+div.app img {
+    float: left;
+}
+
+.app #same {
+    float: right;
+    position: relative;
+    right: 45px;
+    top: 105px;
+}
+
+div.app .clr {
+    clear: both;
+}
+
+div.app #same h1 {
+    color: #2196f3;
+    font-size: 60px;
+    text-align: left;
+    margin-bottom: -25px;
+}
+
+div.app div#same h3 {
+    font-size: 30px;
+    margin-bottom: -10px;
+    text-align: left;
+}
+
+div#same a img {
+    width: 200px;
+    height: 60px;
+}
+
+div.sign {
+    background: #054277;
+    height: 100px;
+    position: relative;
+}
+
+div.sign svg{
+    padding-left: 220px;
+    padding-top: 6px;
+}
+
+div.sign div {
+    float: right;
+    padding-right: 690px;
+}
+
+div.sign div h4 {
+    font-size: large;
+    color: white;
+}
+
+div.sign div p {
+    margin-top: -20px;
+    margin-left: -1px;
+    color: #14acf2;
+    font-size: 15px;
+}
+
+.sign .form {
+    position: absolute;
+    left: 700px;
+    bottom: 30px;
+}
+
+div.sign .form input {
+    width: 265px;
+    padding: 13px;
+    border: 0 solid #054277;
+    border-radius: 5px 0 0 5px;
+}
+
+div.sign .form a {
+    text-decoration: none;
+    border: 1px solid #14acf2;
+    padding: 12px 70px 11px 70px;
+    color: white;
+    font-size: 15px;
+    margin-left: -5px;
+    background: #14acf2;
+    border-radius: 0 5px 5px 0;
+}
+
+.container_24{
+    margin-top:10px;
+    background:white;
+}
+
+.container_24 .grid_5 p {
+    border-bottom: 1px solid rgba(212, 198, 198, 0.9);
+    width: 120%;
+    margin-bottom: -10px;
+    padding-bottom: 4px;
+    color: dimgray;
+    font-size: 15px;
+}
+
+.container_24 .grid_4 p {
+    border-bottom: 1px solid rgba(212, 198, 198, 0.9);
+    width: 120%;
+    margin-bottom: -10px;
+    padding-bottom: 4px;
+    margin-top: 14px;
+    color: dimgray;
+}
+
+.container_24 ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.container_24 ul li a {
+    text-decoration: none;
+    color: #14acf2;
+    font-size: 15px;
+}
+
+.container_24 .sub-footer p {
+    color: dimgray;
+    border-top: 1px solid rgba(212, 198, 198, 0.9);
+    padding-top: 28px;
+    font-size: 15px;
+}
+
+.container_24 .grid_2 {
+    width: 70px;
+    border-top: 1px solid rgba(212, 198, 198, 0.9);
+    margin-top: 15px;
+    margin-left: -35px;
+    margin-right: 15px;
+    padding: 30px;
+    padding-right: 0;
+    padding-top: 15px;
+}
+
+.container_24 .grid_3 {
+    margin-left: -5px;
+    padding-right: 10px;
+}

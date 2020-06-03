@@ -1,0 +1,130 @@
+body{
+    background: grey;
+    width: 1340px;
+    
+}
+
+header{
+    background-color: rgb(0, 153, 255);
+    width: 900px;
+    height: 70px;
+    position: relative;
+    bottom: 32px;
+    right: 8px;
+}
+
+header h2 #head{
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: fantasy;
+}
+
+header #image{
+    /*background: yellowgreen;*/
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    
+}
+
+.menu{
+    width: 300px;
+    position: absolute;
+}
+
+.menu ul li{
+    list-style: none;
+    background: rgb(0, 153, 255);
+    border:1px solid whitesmoke;
+    border-bottom: none;
+    display: inline-block;
+    /*float: right;*/
+    font: bold 12px arial;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    padding: 20px;
+    position: absolute;
+    left: 893px;
+    bottom: 48px;
+    width: 135px;
+    z-index: 10000;
+    background: linear-gradient(top, #fff 0%, #f2f2f2 50%, #e1e1e1 51%, #f6f6f6 100%);
+}
+
+.menu ul li:hover{
+    background: linear-gradient(top, #fff 0%, #f4f4f4 50%, #ededed 51%, #fff 100%);
+}
+
+.menu ul li.b{
+    margin-left: 185px;
+} 
+
+.menu ul li.c{
+    margin-left: 250px;
+    padding-left: 30px;
+    padding-right: 31px;
+}
+
+.menu ul li.a{
+    padding-left: 15px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+}
+
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li div{
+    text-align: left;
+    font: normal 11px arial;
+    line-height: 19px;
+    margin: 10px 0;
+}
+
+.menu ul li div a{
+    display: inline;
+}
+
+.menu ul li:hover:target{
+    display: inherit;
+    padding: 0;
+    height: 155px;
+    width: 200px;
+    padding-left: 15px;
+    opacity: .97;
+    transition: height 0.4s ease-in;
+}
+
+#search{
+    background: url(../IMAGES/homepage12.jpg) no-repeat ;
+    width: 1450px;
+    height: 351px;
+    /*margin-left: -61px;
+    margin-top: -61px;
+    margin-right: -61px;
+    padding-right: 30px;*/
+    position: absolute;
+    right: 0px;
+    top: 58px;
+}
+
+#search h2{
+    margin-left: 430px;
+    padding-top: 140px;
+    font-size: 35px;
+    color: white;
+}
+
+#search p{
+    padding-left: 510px;
+    margin-top: -20px;
+    font-size: 21px;
+    color: white;
+}
